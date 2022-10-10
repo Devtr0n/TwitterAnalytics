@@ -69,6 +69,7 @@ dotnet run
 ```
 
 You should similar output as shown here
+
 ![DotNetBuildCLI](https://i.ibb.co/LkZLw6s/dot-net-run.png)
 
 Alternatively, you can use Visual Studio IDE to launch the API and server.

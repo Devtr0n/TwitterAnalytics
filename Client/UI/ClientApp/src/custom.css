@@ -1,0 +1,22 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+table, th, tr, td {
+    color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: white;
+}

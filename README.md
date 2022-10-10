@@ -127,7 +127,7 @@ TwitterAnalytics uses a number of tech stack and open source projects to work pr
 - [xUnit] - a free, open source, community-focused unit testing tool for the .NET Framework. 
 - [Devtr0n] - my personal github profile (blood, sweat and tears!)
 
-And of course TwitterAnalytics itself is open source with a [public repository][Devtr0n] on GitHub.
+And of course TwitterAnalytics itself is open source with a [public repository][Devtr0nRepo] on GitHub.
 
 ## Docker
 
@@ -144,7 +144,7 @@ MIT
 
    
    [Devtr0n]: <https://github.com/Devtr0n>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [Devtr0nRepo]: <https://github.com/Devtr0n/TwitterAnalytics>
    [node.js]: <http://nodejs.org>
    [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
    [.NET 6]: <https://dotnet.microsoft.com/en-us/download/dotnet/6.0> 

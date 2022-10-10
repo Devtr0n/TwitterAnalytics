@@ -51,9 +51,29 @@ npm install react-scripts@latest
 ```
 ## Running the API & Background Service (Server)
 
+The solution is configured to execute the API server as the startup project.
+The easiest way to launch the API server is to use the .NET CLI.
+From the solution root directory, you can build the solution using the command:
+
+```
+dotnet build
+```
+
+![DotNetBuildCLI](https://i.ibb.co/rcxptZT/dot-net-build.png)
+
+From the API directory, you can run the API and server process using the commands:
+
+```
+cd Server/API
+dotnet run
+```
+
+You should similar output as shown here
+![DotNetBuildCLI](https://i.ibb.co/LkZLw6s/dot-net-run.png)
+
+Alternatively, you can use Visual Studio IDE to launch the API and server.
 - Open the .sln in Visual Studio 2022
 - Press F5/Run
-- The solution is configured to execute the API as the startup project.
 - You should see a console window open and begin logging hashtag debug info from the Background Service Worker task
 ![BackgroundService](https://i.ibb.co/02vZ7X2/API-worker-tweet-processor.png)
 - You should also see the SwaggerUI open in your default browser at https://localhost:7044/swagger/index.html

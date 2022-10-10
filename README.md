@@ -78,12 +78,12 @@ npm run build
 npm start
 ```
 
-- Verify the deployment by navigating to your server address in your preferred browser.
+- Verify the UI deployment by navigating to the localhost address in your preferred browser. You should now see the UI/webpage load after going to the address:
 
 ```sh
 https://localhost:44464/
 ```
-- Once the node server processes the "start" command, it will launch a new browser and you should see the UI load
+
 - The UI has 4 navigation menu has options
     - Home - a brief description of the website, technology stack and contact information
      ![Homepage](https://i.ibb.co/NrYjybj/UI-website-homepage-index.png)
@@ -106,7 +106,8 @@ dotnet test
 
 ## Features
 
-- Top Ten hashtags from Twitter Dev API streaming
+- Top Ten hashtags from Twitter Dev API streaming in real time (analytics)
+- Total Tweets processed counter in real time (analytics)
 - REST API with Swagger UI support
 - ReactJS front-end client with mobile browser support
 - API Unit and Integration testing to verify expected results (SOLID architecture)
@@ -130,7 +131,7 @@ And of course TwitterAnalytics itself is open source with a [public repository][
 
 ## Docker
 
-I will add Docker support to TwitterAnalytics soon, as I ran out of time to do so. I have been rather busy lately with closing on our house, organizing a move into said new house, a 7 month old daughter and supporting my lovely wife almost 4 years while transitioning between homes and working a fulltime position as a .NET Lead over ASP.NET greenfield projects in the automotive warranty and claims industry.
+I will add Docker support to TwitterAnalytics soon, as I ran out of time to do so. I have been rather busy lately with closing on our house, organizing a move into said new house, a 7 month old daughter and supporting my lovely wife of nearly 4 years, all while transitioning between homes and working a fulltime position as a .NET Lead over ASP.NET greenfield projects in the automotive warranty and claims industry.
 
 
 ## License

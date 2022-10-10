@@ -34,7 +34,7 @@ public class TweetController : ControllerBase
     {
         var hashtags = _service.TopTenWithLinq();
 
-        if (hashtags is not null && hashtags.Any())
+        if (hashtags is not null)
             return Ok(hashtags);
 
         return StatusCode(StatusCodes.Status204NoContent);
@@ -51,7 +51,7 @@ public class TweetController : ControllerBase
     {
         var hashtags = _service.TopKFrequent();
 
-        if (hashtags is not null && hashtags.Any())
+        if (hashtags is not null)
             return Ok(hashtags);
 
         return StatusCode(StatusCodes.Status204NoContent);

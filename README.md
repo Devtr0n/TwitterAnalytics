@@ -76,6 +76,7 @@ Alternatively, you can use Visual Studio IDE to launch the API and server.
 - Open the .sln in Visual Studio 2022
 - Press F5/Run
 - You should see a console window open and begin logging hashtag debug info from the Background Service Worker task
+
 ![BackgroundService](https://i.ibb.co/02vZ7X2/API-worker-tweet-processor.png)
 - You should also see the SwaggerUI open in your default browser at https://localhost:7044/swagger/index.html
 ![SwaggerUI](https://i.ibb.co/4RJbztZ/API-swagger.png)
